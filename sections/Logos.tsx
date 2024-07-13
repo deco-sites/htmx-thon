@@ -12,7 +12,7 @@ export interface Props {
   logos?: Logo[];
 }
 
-const IMG_PLACEHODLER = Array(30).fill(0).map(() => ({
+const IMG_PLACEHOLDER = Array(30).fill(0).map(() => ({
   src:
     "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/03fbcc78-ca86-4616-a59a-b8aa18331a9c",
   altText: "Logo",
@@ -20,7 +20,7 @@ const IMG_PLACEHODLER = Array(30).fill(0).map(() => ({
 
 export default function Logos({
   title = "Edit this heading however you want",
-  logos = IMG_PLACEHODLER,
+  logos = IMG_PLACEHOLDER,
 }: Props) {
   const slideContent = (
     <div class="flex items-center gap-20">
@@ -29,7 +29,7 @@ export default function Logos({
           <Image
             src={logo.src || ""}
             alt={logo.altText || ""}
-            width={110}
+            width={1024}
             height={25}
           />
         );

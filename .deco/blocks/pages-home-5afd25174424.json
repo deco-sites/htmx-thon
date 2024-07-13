@@ -1,42 +1,133 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Caring for you, comprehensively</p>",
+      "cta": [],
+      "description": "Committed to improving lives through innovative healthcare solutions",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11771/230e6fb6-b041-487d-a064-2328e28c9100",
+      "placement": "left"
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [],
+      "bottomLinks": [],
+      "social": [],
+      "subscribe": {
+        "title": "Search Bar",
+        "description": "Enter Product",
+        "instructions": "<p></p>"
       },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
+      "logo": {},
+      "madeWith": {}
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "SALE!!!",
+      "description": "Quality Healthcare Products at Affordable Rates!\n\n",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11771/07a74eff-6626-4d7f-9f5f-e526eb69c966",
+      "cta": []
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "HOT SELLING",
+      "description": "DIsplays hot selling items in the sale",
+      "posts": [
+        {
+          "tags": [],
+          "title": "HTMShampoo",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11771/48dc066c-10c4-4d40-b76f-339a490b2dd6",
+          "excerpt": "Gently cleanses and nourishes hair. Refreshing shampoo for daily use. Hydrates and revitalizes hair.",
+          "author": "HTM",
+          "date": "Date is Today"
+        },
+        {
+          "tags": [],
+          "title": "HTMShampoo",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11771/48dc066c-10c4-4d40-b76f-339a490b2dd6",
+          "excerpt": "Gently cleanses and nourishes hair. Refreshing shampoo for daily use. Hydrates and revitalizes hair.",
+          "author": "HTM",
+          "date": "Date is Today"
+        },
+        {
+          "tags": [],
+          "title": "HTMShampoo",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11771/48dc066c-10c4-4d40-b76f-339a490b2dd6",
+          "excerpt": "Gently cleanses and nourishes hair. Refreshing shampoo for daily use. Hydrates and revitalizes hair.",
+          "author": "HTM",
+          "date": "Date is Today"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "title": "REVIEWS",
+      "arrows": true,
+      "slides": [
+        {
+          "content": {
+            "description": "This medication has been a lifesaver. I've been struggling with [condition] for years and this drug has made a significant difference in my quality of life.",
+            "name": "SOMEONE 1"
+          }
+        },
+        {
+          "content": {
+            "description": "The customer service team was incredibly helpful and supportive throughout my experience. They answered all my questions promptly and professionally.",
+            "name": "SOMEONE 2"
+          }
+        },
+        {
+          "content": {
+            "description": " \"This medication has helped me manage my [chronic illness] symptoms so much better. I feel like I have my life back.\"",
+            "name": "SOMEONE 3"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "title": "FAQs",
+      "description": "Just drop a question and hope for the best",
+      "questions": [
+        {
+          "title": "What is HTMedics' mission and vision?",
+          "answer": "<ul><li><p>HTMedics is dedicated to improving global health through the development and delivery of innovative pharmaceutical solutions. Our vision is to be a leading healthcare company that enhances the lives of patients worldwide.</p></li></ul>"
+        },
+        {
+          "title": "Where is HTMedics headquartered?",
+          "answer": "<ul><li><p>HTMedics is headquartered in [City, State/Province, Country].</p></li></ul>"
+        },
+        {
+          "title": "Does HTMedics conduct clinical trials?",
+          "answer": "<ul><li><p>Yes, HTMedics is actively involved in clinical research to develop new and improved treatments.</p></li></ul><p></p>"
+        },
+        {
+          "title": "Does HTMedics offer over-the-counter (OTC) products?",
+          "answer": "<ul><li><p>[Yes/No] HTMedics offers a range of OTC products focused on [specific areas, e.g., pain relief, allergy relief].</p></li></ul>"
+        }
+      ],
+      "cta": {
+        "outline": false,
+        "href": "link for more ",
+        "text": "link for more faqs"
       }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [],
+      "bottomLinks": [],
+      "social": [],
+      "subscribe": {
+        "title": "NEWSLETTER SUBSCRIPTION",
+        "description": "Please subscribe",
+        "instructions": "<p>*Mandatory</p>"
+      }
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
